@@ -1,41 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome - Vijay's Website</title>
-   <link rel="stylesheet" href="style.css">
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"> -->
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Tourney:wght@100&display=swap" rel="stylesheet"> -->
-   
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet"> -->
-   <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="navbarcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
 
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="left">
-                <a href="index.html"><img src="logobest.png" alt="Logo"></a>
-            </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
 
-
-            <div class="container">
-                <ul>
-                    <li><a href="index.html" id="home" >Home</a></li>
-                    <li><a href="games.html" id="games">Games</a></li>
-                    <li><a href="apps.html" id="apps">Apps</a></li>
-                    <li><a href="contact.html" id="contact">Contact us</a></li>
-
-
-                </ul>
-            </div>
-
+        <i class="fas fa-bars"></i>
+      </label>
+      <a href="index.html"><label class="logo" > <img src="logobest.png" alt="Logo"></label></a>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </header>
-<hr>
-    <section>
+
+    <!-- <section></section> -->
+     <section>
         <div>
         <h2 id="welcome">Welcome to Vijay's website</h2>
         <p>Hello, I'm currently an indie Website, Game and Software developer with a focus on Android.
@@ -45,23 +38,21 @@
 
     </div>
     </section>
+  </header>
+    
+  <footer>
+    <!-- <nav class="navbar"> -->
+    <div class="bottom">
+        <!-- <a href="index.html"><img src="logobest.png" alt="Logo"></a> -->
+
+        <div class="copyright">Created by Vijay Daive &#169; 2021 </div>
+        <!-- <span class="vertical-line"></span> -->
+        <div class="privacy">Privacy Policy </div>
+
+    </div>
 
 
+</footer>
 
-
-    <footer>
-        <!-- <nav class="navbar"> -->
-        <div class="bottom">
-            <!-- <a href="index.html"><img src="logobest.png" alt="Logo"></a> -->
-
-            <div class="copyright">Created by Vijay Daive &#169; 2021 </div>
-            <!-- <span class="vertical-line"></span> -->
-            <div class="privacy">Privacy Policy </div>
-
-        </div>
-
-
-    </footer>
-</body>
-
+  </body>
 </html>
