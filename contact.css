@@ -213,18 +213,27 @@
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
   
   .copyright {
+     font-weight: bolder;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    padding: 0px 5px;
-    font-size: 12px;
+    /* padding: 0px 5px; */
+    font-size: 13px;
   }
   
   .privacy {
-    color: black;
-    font-size: 12px;
+    cursor: pointer;
+    color: blue;
+    font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
+  }
+  .terms {
+    cursor: pointer;
+    color: blue;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    
   }
