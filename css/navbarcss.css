@@ -47,7 +47,8 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  background-color: #4facf3;  transition: all .5s ease 0s;
+  background-color: #4facf3;
+  transition: all .5s ease 0s;
 }
 
 .checkbtn {
@@ -73,14 +74,16 @@ p {
 }
 
 @media (max-width: 952px) {
-  label.logo img {
-    padding-left: 25px;
-  }
+
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
     color: #4facf3;
     transition: all .5s ease 0s;
+  }
+
+  label.logo img {
+    margin-left: 2rem;
   }
 
   nav ul li a {
@@ -91,6 +94,7 @@ p {
     /* text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
     text-shadow: 0px 3px 3px #191919, 0px 5px 4px #474747, 0px 7px 6px #323232, 0px 2px 3px #adadad;
   }
+
 }
 
 @media (max-width: 858px) {
@@ -122,7 +126,7 @@ p {
     text-shadow: 0px 3px 3px #191919, 0px 5px 4px #474747, 0px 7px 6px #323232, 0px 2px 3px #adadad;
   }
 
- 
+
   #check:checked~ul {
     left: 0;
   }
@@ -218,12 +222,14 @@ section p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* font-size: small; */
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .copyright {
-   font-weight: bolder;
+  font-weight: 600;
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   /* padding: 0px 5px; */
   font-size: 13px;
 }
@@ -232,14 +238,14 @@ section p {
   cursor: pointer;
   color: blue;
   font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .terms {
   cursor: pointer;
   color: blue;
   font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .divider {

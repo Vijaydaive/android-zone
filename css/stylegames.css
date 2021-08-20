@@ -12,6 +12,7 @@ body {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Vidaloka', serif;
 }
 
 body {
@@ -82,15 +83,15 @@ nav ul li a:hover {
 }
 
 @media (max-width: 952px) {
-  label.logo img {
-    padding-left: 25px;
-  }
 
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
     color: #4facf3;
     transition: all .5s ease 0s;
+  }
+  label.logo img {
+    margin-left: 2rem;
   }
   nav ul li a {
     font-size: 17px;
@@ -348,9 +349,9 @@ li a {
 }
 
 .copyright {
-   font-weight: bolder;
+  font-weight: 600;
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   /* padding: 0px 5px; */
   font-size: 13px;
 }
@@ -359,14 +360,14 @@ li a {
   cursor: pointer;
   color: blue;
   font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .terms {
   cursor: pointer;
   color: blue;
   font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .divider {
