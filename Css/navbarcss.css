@@ -172,7 +172,7 @@ section p {
 }
 
 header::before {
-  background: url('/Pics/8.jfif') no-repeat center center/cover;
+  background: url('pics/8.jfif') no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
