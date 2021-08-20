@@ -34,7 +34,7 @@ nav {
 
 label.logo img {
   padding-top: 5px;
-  padding-left: 70px;
+  margin-left: 5rem;
   height: 70px;
   width: auto;
   cursor: pointer;
@@ -43,7 +43,7 @@ label.logo img {
 
 nav ul {
   float: right;
-  margin-right: 20px;
+  margin-right: 5rem;
 }
 
 nav ul li {
@@ -361,13 +361,17 @@ li a {
   font-size: 13px;
   font-family: 'Courier New', Courier, monospace;
 }
+
 .terms {
-  cursor: pointer;
   cursor: pointer;
   color: blue;
   font-size: 13px;
   font-family: 'Courier New', Courier, monospace;
-  
+}
+
+.divider {
+  width: 2px;
+  background: blue;
 }
 
 /* @media screen and (min-width: 100px) and (max-width: 360px) {
