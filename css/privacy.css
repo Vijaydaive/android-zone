@@ -240,9 +240,9 @@
   }
   
   .copyright {
-    font-weight: bolder;
+    font-weight: 600;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     /* padding: 0px 5px; */
     font-size: 13px;
   }
@@ -251,16 +251,16 @@
     cursor: pointer;
     color: blue;
     font-size: 13px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .terms {
     cursor: pointer;
     color: blue;
     font-size: 13px;
-    font-family: 'Courier New', Courier, monospace;
-  
+    font-family: 'Times New Roman', Times, serif;
   }
+  
   .divider {
     width: 2px;
     background: blue;
