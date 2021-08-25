@@ -8,7 +8,7 @@
 }
 
 nav {
-  background: #0082e6;
+  background: #1b9bff;
   height: 80px;
   width: 100%;
 }
@@ -38,7 +38,7 @@ nav ul li a {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
+  border-radius: 19px;
   text-transform: uppercase;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -47,7 +47,7 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  background-color: #4facf3;
+  background-color: #63b6f5;
   transition: all .5s ease 0s;
 }
 

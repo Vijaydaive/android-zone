@@ -28,7 +28,7 @@ hr {
 
 
 nav {
-  background: #0082e6;
+  background: #1b9bff;
   height: 80px;
   width: 100%;
 }
@@ -58,7 +58,7 @@ nav ul li a {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
+  border-radius: 19px;
   text-transform: uppercase;
 }
 
