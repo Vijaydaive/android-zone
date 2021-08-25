@@ -97,6 +97,12 @@ p {
 
 }
 
+@media (max-width: 400px) {
+    section div p{
+    font-size: larger;
+  }
+}
+
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
@@ -131,6 +137,7 @@ p {
     left: 0;
   }
 }
+
 
 section {
   background: url(bg1.jpg) no-repeat;
